@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 h1{
   font-family: "Philosopher";
@@ -22,10 +23,12 @@ p {
 img {
   padding: 0 !important;
 }
+button {
+  padding: 8px 30px 8px 30px !important;
+}
 
 footer {
   background: #2f373d;
-  height: 367px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -138,6 +141,50 @@ nav {
   font-family: "Philosopher";
   margin-bottom: 5px;
 }
+.fixed-btn {
+  position: fixed;
+  right: 1vw;
+  top: 20vh;
+  z-index: 99;
+}
+.icon-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #52164A;
+  height: 50px;
+  width: 50px;
+  color: white;
+  background-color: #52164A;
+  font-size: 20px;
+  line-height: 50px;
+  border-radius: 50%;
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+}
+.icon-block2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #52164A;
+  height: 50px;
+  width: 50px;
+  color: white;
+  background-color: #52164A;
+  font-size: 20px;
+  line-height: 50px;
+  border-radius: 50%;
+}
+.call-btn:hover {
+  text-decoration: none !important;
+}
+@keyframes shake {
+  0% { transform:  rotate(0deg); }
+  25% { transform:  rotate(-25deg); }
+  50% { transform:  rotate(0); }
+  75% { transform:  rotate(-25deg); }
+  100% { transform:  rotate(0); }
+}
 
 .flex-li-container {
   display: flex;
@@ -152,13 +199,20 @@ nav {
 .my-jumbotron {
   background-color: #52164A;
   color: white;
+  width: 100vw !important;
+  box-sizing: border-box;
 } 
 .my-jumbotron h1,h2 {
   color: white;
 }
-.form {
+.my-form {
   background-color: #B5B4B2;
+  color: black;
 }
+.lib-img {
+  height: 220px;
+}
+
 @media only screen and (max-width: 640px) {
   header {
     height: 40vh;
@@ -170,7 +224,7 @@ nav {
     font-size: 20px;
     text-indent: -9999px;
   }
-  .form-title {
+  .form-title, .hide-on-small {
     display: none;
   }
   .card-title {
@@ -180,8 +234,8 @@ nav {
   .card p {
     font-size: 10px;
   }
-  /* .col-6,
-  .col-sm-6 {
-    margin-bottom: 10px !important; */
-  /* } */
+  .my-form {
+    padding-left: 30px;;
+  }
 }
+

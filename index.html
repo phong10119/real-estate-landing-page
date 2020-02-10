@@ -12,6 +12,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous" defer></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous" defer></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous" defer></script>
   <script src="script.js" defer></script>
 </head>
 
@@ -65,6 +79,19 @@
       </div>
     </div>
   </header>
+
+  <div class="fixed-btn">
+    <a href="tel:+84903315757" class="call-btn">
+      <span class="icon-block">
+          <i class="fas fa-phone"></i>
+      </span>
+    </a>
+    <a href="#lienhe" class="call-btn">
+        <span class="icon-block2">
+            <i class="far fa-edit"></i>
+        </span>
+    </a>
+  </div>
 
   <section>
     <div id="gioithieu" class="container pt-5">
@@ -277,7 +304,7 @@
           máy… Sky-linked villa là lựa chọn hoàn hảo khẳng định đẳng cấp của gia chủ thành đạt</p>
       </div>
       <div class="container">
-        <img src="./image/sanphamsangtao.jpg" alt="sp sang tao" width="100%">
+        <img src="./image/sanphamsangtao.jpg" alt="sp sang tao" width="100%" class="hide-on-small mb-3">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-4">
             <a href="#">
@@ -330,24 +357,68 @@
       <h1>THƯ VIỆN HÌNH ẢNH</h1>
 
       <div class="card-deck">
+        <div class="card mb-2">
+          <a data-toggle="modal" data-target="libraryModal" data-src="./image/thuvien1.jpg">
+            <img src="./image/thuvien1.jpg" class="lib-img card-img-top" alt="thư viện hình ảnh">
+          </a>
+        </div>
+        <div class="card mb-2">
+          <a data-toggle="modal" data-target="libraryModal" data-src="./image/thuvien2.jpg">
+            <img src="./image/thuvien2.jpg" class="lib-img card-img-top" alt="thư viện hình ảnh">
+          </a>
+        </div>
+        <div class="card mb-2">
+          <a data-toggle="modal" data-target="libraryModal" data-src="./image/thuvien3.jpg">
+            <img src="./image/thuvien3.jpg" class="lib-img card-img-top" alt="thư viện hình ảnh">
+          </a>
+        </div>
+        <div class="card mb-2">
+          <a data-toggle="modal" data-target="libraryModal" data-src="./image/thuvien4.jpg">
+            <img src="./image/thuvien4.jpg" class="lib-img card-img-top" alt="thư viện hình ảnh">
+          </a>
+        </div>
+      </div>
+      <div class="card-deck">
+        <div class="card mb-2">
+          <a data-toggle="modal" data-target="libraryModal" data-src="./image/thuvien1.jpg">
+            <img src="./image/thuvien5.jpg" class="lib-img card-img-top" alt="thư viện hình ảnh">
+          </a>
+        </div>
+        <div class="card mb-2">
+          <a data-toggle="modal" data-target="libraryModal" data-src="./image/thuvien2.jpg">
+            <img src="./image/thuvien6.jpg" class="lib-img card-img-top" alt="thư viện hình ảnh">
+          </a>
+        </div>
+        <div class="card mb-2">
+          <a data-toggle="modal" data-target="libraryModal" data-src="./image/thuvien3.jpg">
+            <img src="./image/thuvien7.jpg" class="lib-img card-img-top" alt="thư viện hình ảnh">
+          </a>
+        </div>
+        <div class="card mb-2">
+          <a data-toggle="modal" data-target="libraryModal" data-src="./image/thuvien4.jpg">
+            <img src="./image/thuvien8.jpg" class="lib-img card-img-top" alt="thư viện hình ảnh">
+          </a>
+        </div>
+      </div>
+      <div class="card-deck">
         <div class="card">
           <a data-toggle="modal" data-target="libraryModal" data-src="./image/thuvien1.jpg">
-            <img src="./image/thuvien1.jpg" class="card-img-top" alt="thư viện hình ảnh">
+            <img src="./image/thuvien9.jpg" class="lib-img card-img-top" alt="thư viện hình ảnh">
           </a>
         </div>
         <div class="card">
           <a data-toggle="modal" data-target="libraryModal" data-src="./image/thuvien2.jpg">
-            <img src="./image/thuvien2.jpg" class="card-img-top" alt="thư viện hình ảnh">
+            <img src="./image/thuvien10.jpg" class="lib-img card-img-top" alt="thư viện hình ảnh">
           </a>
         </div>
         <div class="card">
           <a data-toggle="modal" data-target="libraryModal" data-src="./image/thuvien3.jpg">
-            <img src="./image/thuvien3.jpg" class="card-img-top" alt="thư viện hình ảnh">
+            <img src="./image/thuvien11.jpg" class="lib-img card-img-top" alt="thư viện hình ảnh">
           </a>
         </div>
         <div class="card">
           <a data-toggle="modal" data-target="libraryModal" data-src="./image/thuvien4.jpg">
-            <img src="./image/thuvien4.jpg" class="card-img-top" alt="thư viện hình ảnh">
+            <img src="./image/thuvien12.jpg" class="lib-img card-img-top" alt="thư viện hình ảnh">
           </a>
         </div>
       </div>
@@ -355,76 +426,74 @@
 
     <div id="lienhe" class="my-jumbotron my-container-fluid mt-5">
       <div class="row">
-        <div class="form-title col-md-4 text-center pt-5">
+        <div class="form-title col-md-4 col-12 text-center pt-5 pr-0">
           <img src="./image/logo-diamond-white-1.png" alt="diamond alnata" width="130px" class="mb-4">
           <p class="mb-4">LIÊN HỆ NGAY</p>
-          <div class="d-flex justtify-content-center col-md-12">
-            <h2 class="col-md-9 mb-5 ml-5">ĐỂ NHẬN NHỮNG THÔNG TIN VÀ ƯU ĐÃI MỚI NHẤT</h2>
+          <div class="d-flex justify-content-center col-md-12">
+            <h2 class="col-md-9 mb-5">ĐỂ NHẬN NHỮNG THÔNG TIN VÀ ƯU ĐÃI MỚI NHẤT</h2>
           </div>
         </div>
 
-        <div class="form col-md-8 col-12 pt-5">
-          <p class="">ĐĂNG KÝ THÔNG TIN</p>
-          <form>
+        <div class="my-form col-md-8 col-12 pt-5">
+          <p style="color:white" class="">ĐĂNG KÝ THÔNG TIN</p>
+          <form id="myform" class="col-md-12 col-12 pl-0" onsubmit="return postToGoogle();">
             <div class="form-row">
               <div class="col-md-12 mb-3">
                 <label for="name">Họ tên</label>
-                <input type="text" class="form-control">
+                <input id="nameField" name="entry.1801709916" type="text" class="form-control">
               </div>
             </div>
             <div class="form-row">
               <div class="col-md-6 mb-3">
                 <label for="phone">Số điện thoại</label>
-                <input type="text" class="form-control" required>
+                <input id="phoneField" name="entry.733540953" type="text" class="form-control" required>
                 <div class="invalid-feedback">
                   Vui lòng điền vào ô này
                 </div>
               </div>
               <div class="col-md-6 mb-3">
                 <label for="email">Email</label>
-                <input type="text" class="form-control">
+                <input id="emailField" name="entry.1582798998" type="text" class="form-control">
               </div>
             </div>
             <div class="d-flex justify-content-center">
-              <button class="btn btn-primary" type="submit">Submit form</button>
+              <button class="btn btn-primary" type="submit">Gửi</button>
             </div>
           </form>
-          <p>THÔNG TIN LIÊN HỆ</p>
-          <div class="d-flex">
+          <p style="color:white" class="mt-3">THÔNG TIN LIÊN HỆ</p>
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <p><strong>Địa chỉ:</strong></p>
+              <p class="mb-0">KHU NHÀ MẪU CELADON CITY</p>
+              <p>88 Đường N1, P.Sơn Kỳ, Q.Tân Phú, Tp HCM
+            </div>
+            <div class="col-md-6 col-12">
+                <p><strong>Hotline:</strong></p>
+                <p class="mb-0">090 331 5757</p>
+            </div>
           </div>
 
         </div>
       </div>
     </div>
   </section>
-  <footer>
+  <footer class="pb-5">
     <div>
       <div style="width: 100vw">
         <i class="fab fa-facebook custome-facebook "></i>
         <i class="fab fa-instagram"></i>
         <i class="fab fa-youtube"></i>
       </div>
-      <div class="two-foot-button">
-        <button type="button" class="btn btn-dark two-foot-button-custome">SUBSCRIBE ></button>
-      </div>
-      <p class="two-foot-address">Raintree Development, #299 Preah Ang Duong, Sangkat Wat Phnom, Phnom Penh, Cambodia
+      <p class="two-foot-address">COPYRIGHT © 2020 DIAMOND ALNATA CELADON CITY.
+      </p>
+      <p class="two-foot-address">ALL RIGHTS RESERVED.
       </p>
       <p class="text-center">
-        <a href="https://www.w3schools.com">+855 (0) 85 385 728</a><b>|</b>
-        <a href="https:leftw.w3schools.com">hello@raintreecambodia.com</a>
+        <a href="https://www.w3schools.com">+84 90 331 5757</a><b>|</b>
+        <a href="https:leftw.w3schools.com">huy.huynhtan@gamudaland.com.my</a>
       </p>
     </div>
   </footer>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>
