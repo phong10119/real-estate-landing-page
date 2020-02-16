@@ -253,5 +253,9 @@ nav {
   .my-form {
     padding-left: 30px;;
   }
+  .mobile-res-img {
+    height: auto;
+    max-height: 100vw;
+  }
 }
 
