@@ -257,7 +257,11 @@ nav {
   .my-form {
     padding-left: 30px;;
   }
-  .mobile-res-img {
+  .mobile-res-img1 {
+    height: auto;
+    max-height: 60vw;
+  }
+  .mobile-res-img2 {
     height: auto;
     max-height: 100vw;
   }
